@@ -4,15 +4,17 @@ import Nav from "./components/App/Nav";
 import Main from "./components/App/Main";
 import Testimonials from "./components/App/Testimonials";
 import Footer from "./components/App/Footer"
+import MarketPlace from "./components/Market Place/marketPlace";
 
 export default function App() {
   return (
     <div className="app">
       <div className="" style={ImgStyle}>
         <Nav />
-        <Main />
+        <MarketPlace />
+        {/* <Main />
         <Testimonials />
-        <Footer />
+        <Footer /> */}
       </div>      
     </div>
   );
