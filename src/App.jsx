@@ -1,21 +1,38 @@
 import { useState } from "react";
-import Navbar from "./components/navbar";
+import 'tailwindcss/tailwind.css';
+import Nav from "./components/App/Nav";
+import Main from "./components/App/Main";
+import Testimonials from "./components/App/Testimonials";
+import Footer from "./components/App/Footer"
 
-function App() {
+export default function App() {
   return (
     <div className="app">
-      <div>
-        <Navbar />
-      </div>
-      <div className="">
-        <img
-          src="https://images.unsplash.com/photo-1597369237991-5c95d1b6e0c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z29sZnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
-          alt=""
-          className=".w-5/6 "
-        />
-      </div>
+      <div className="" style={ImgStyle}>
+        <Nav />
+        <Main />
+        <Testimonials />
+        <Footer />
+      </div>      
     </div>
   );
 }
 
-export default App;
+const ImgStyle = {
+  width: '100%',
+  height: '1200px',
+  backgroundImage: `url("https://images.unsplash.com/photo-1632946269126-0f8edbe8b068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1131&q=80")`,
+  backgroundSize: 'cover'
+};
+
+
+// "code background image for local file"
+// import background from "./img/placeholder.png";
+
+// function App() {
+//   return (
+//     <div style={{ backgroundImage: `url(${background})` }}>
+//       Hello World
+//     </div>
+//   );
+// }
