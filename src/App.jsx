@@ -1,20 +1,15 @@
-import { useState } from "react";
 import 'tailwindcss/tailwind.css';
-import Nav from "./components/App/Nav";
-import Main from "./components/App/Main";
-import Testimonials from "./components/App/Testimonials";
-import Footer from "./components/App/Footer"
-import MarketPlace from "./components/Market Place/marketPlace";
+import Nav from "./components/Join/Nav";
+import JoinLeague from "./components/Join/JoinLeague";
+
+
 
 export default function App() {
   return (
     <div className="app">
       <div className="" style={ImgStyle}>
-        <Nav />
-        <MarketPlace />
-        {/* <Main />
-        <Testimonials />
-        <Footer /> */}
+        <Nav />        
+        <JoinLeague />
       </div>      
     </div>
   );
@@ -27,14 +22,3 @@ const ImgStyle = {
   backgroundSize: 'cover'
 };
 
-
-// "code background image for local file"
-// import background from "./img/placeholder.png";
-
-// function App() {
-//   return (
-//     <div style={{ backgroundImage: `url(${background})` }}>
-//       Hello World
-//     </div>
-//   );
-// }
