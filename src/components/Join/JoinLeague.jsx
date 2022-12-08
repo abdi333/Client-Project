@@ -18,7 +18,7 @@ export default function JoinLeague() {
 
     const [password, setPassword] = useState("");
     const passwordEl = useRef();
-
+    
     const [pwd, setPwd] = useState('');
     const [isRevealPwd, setIsRevealPwd] = useState(false);
     const [valid, setValid] = useState(false);
@@ -77,7 +77,7 @@ export default function JoinLeague() {
                     </div>
                     <div className="relative mt-3">
                         <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline"
-                            name="pwd" type={isRevealPwd ? "text" : "password"} value={pwd}  placeholder="Password" ref={passwordEl} onChange={(e) => setPwd(e.target.value)} />
+                             type={isRevealPwd ? "text" : "password"} value={pwd}  placeholder="Password" ref={passwordEl} onChange={(e) => setPwd(e.target.value)} />
                         <div className="absolute left-0 inset-y-0 flex items-center justify-between">
                             <img src="https://cdn-icons-png.flaticon.com/512/25/25215.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor" />
                             <img className="w-1/12 ml-48"
@@ -92,16 +92,16 @@ export default function JoinLeague() {
                             <img src="https://cdn-icons-png.flaticon.com/512/25/25215.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor" />
                         </div>
                     </div>
-                    <p className="mt-4 italic text-white font-light text-sm">Password should be greater than 8 characters</p>
-                    <p className="mt-4 italic text-white font-light text-sm">Password strength: <span style={{ color: valid ? 'red' : 'green' }}>{valid ? 'Weak' : 'Strong'}</span></p>
+                    <p className="mt-4 italic text-black font-light text-sm">Password should be greater than 8 characters</p>
+                    <p className="mt-4 italic text-black font-light text-sm">Password strength: <span style={{ color: valid ? 'red' : 'green' }}>{valid ? 'Weak' : 'Strong'}</span></p>
 
-                    <div className="mt-4 flex items-center text-white"> <input type="checkbox" id="remember" name="remember" className="mr-2" />
-                        <label className="text-sm" for="remember" />I agree with the <a className="text-indigo-400 hover:text-indigo-500" href="#">Privacy Policy</a>
+                    <div className="mt-4 flex items-center text-black"> <input type="checkbox" id="remember" name="remember" className="mr-2" />
+                        <label className="text-sm" />I agree with the <a className="text-indigo-400 hover:text-indigo-500" href="#">Privacy Policy</a>
                     </div>
 
                     <div className="flex items-center justify-center mt-8">
-                        <button className=" border text-white py-2 px-4 uppercase rounded bg-indigo-500 hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
-                            onClick={function () { setEmail(emailEl.current.value); setFirst(firstEl.current.value); setLast(lastEl.current.value); setPassword(passwordEl.current.value); setPhone(phoneEl.current.value) }}>Create Account</button>
+                        <button className=" border text-black py-2 px-4 uppercase rounded bg-indigo-500 hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
+                            onClick={function () { setEmail(emailEl.current.value); setFirst(firstEl.current.value); setLast(lastEl.current.value); setPwd(passwordEl.current.value); setPhone(phoneEl.current.value) }}>Sign Up</button>
                     </div>
                 </form>
             </div>
