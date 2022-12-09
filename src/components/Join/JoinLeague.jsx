@@ -33,7 +33,7 @@ export default function JoinLeague() {
 
     return (
         <div className="p-8 lg:w-1/2 mx-auto">
-            <div className="bg-none rounded-t-lg p-8">
+            <div className="bg-gray-100 rounded-t-lg p-8">
                 <p className="text-center text-md">Sign up with</p>
                 <div>
                     <div className="flex items-center justify-center space-x-5 mt-3">
@@ -77,7 +77,7 @@ export default function JoinLeague() {
                     </div>
                     <div className="relative mt-3">
                         <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline"
-                             type={isRevealPwd ? "text" : "password"} value={pwd}  placeholder="Password" ref={passwordEl} onChange={(e) => setPwd(e.target.value)} />
+                             type={isRevealPwd ? "text" : "password"}  placeholder="Password" value={pwd}  onChange={(e) => setPwd(e.target.value)} />
                         <div className="absolute left-0 inset-y-0 flex items-center justify-between">
                             <img src="https://cdn-icons-png.flaticon.com/512/25/25215.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor" />
                             <img className="w-1/12 ml-48"
@@ -101,12 +101,12 @@ export default function JoinLeague() {
 
                     <div className="flex items-center justify-center mt-8">
                         <button className=" border text-black py-2 px-4 uppercase rounded bg-indigo-500 hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
-                            onClick={function () { setEmail(emailEl.current.value); setFirst(firstEl.current.value); setLast(lastEl.current.value); setPwd(passwordEl.current.value); setPhone(phoneEl.current.value) }}>Sign Up</button>
+                            onClick={function () { setFirst(firstEl.current.value); setLast(lastEl.current.value); setEmail(emailEl.current.value); setPhone(phoneEl.current.value); setPwd(passwordEl.current.value) }}>Sign Up</button>
                     </div>
                 </form>
             </div>
             <div>
-                <h4 className="text-white">                
+                <h4 className="text-black">                
                     First Name : {first} <br /><br />
                     Last Name : {last} <br /><br />
                     Phone Number : {phone} <br /><br />
