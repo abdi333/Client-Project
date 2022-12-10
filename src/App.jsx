@@ -1,6 +1,7 @@
 import 'tailwindcss/tailwind.css';
 import Nav from "./components/Join/Nav";
 import JoinLeague from "./components/Join/JoinLeague";
+import CreateLeague from './components/join/CreateLeague';
 import Footer from './components/Join/Footer';
 
 
@@ -10,7 +11,7 @@ export default function App() {
     <div className="app">
       <div className="" style={ImgStyle}>
         <Nav />        
-        <JoinLeague />
+        <CreateLeague />
         <Footer />
       </div>      
     </div>
