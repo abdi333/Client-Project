@@ -21,7 +21,7 @@ export default function JoinLeague() {
 
     const [valid, setValid] = useState(false);
     const [isRevealPwd, setIsRevealPwd] = useState(false);
-
+    
 
     useEffect(() => {
         if (key.length < 8) {
@@ -33,7 +33,7 @@ export default function JoinLeague() {
 
     return (
         <div className="p-8 lg:w-1/2 mx-auto">
-            <div className=" rounded-t-lg p-8">
+            <div className="bg-gray-100 rounded-t-lg p-8">
                 <p className="text-center text-md">Sign up with</p>
                 <div>
                     <div className="flex items-center justify-center space-x-5 mt-3">
@@ -48,7 +48,7 @@ export default function JoinLeague() {
                     </div>
                 </div>
             </div>
-            <div className="rounded-b-lg py-12 px-4 lg:px-24">
+            <div className="bg-gray-100 rounded-b-lg py-12 px-4 lg:px-24">
                 <p className="text-center text-md">Or sign up with credentials</p>
                 <form className="mt-6">
                     <div className="relative">
@@ -86,10 +86,10 @@ export default function JoinLeague() {
                                 onClick={() => setIsRevealPwd(prevState => !prevState)} />
                         </div>
                     </div>
-                    <p className="mt-4 italic text-white font-light text-sm">Password should be greater than 8 characters</p>
-                    <p className="mt-4 italic text-white font-light text-sm">Password strength: <span style={{ color: valid ? 'red' : 'green' }}>{valid ? 'Weak' : 'Strong'}</span></p>
+                    <p className="mt-4 italic text-black font-light text-sm">Password should be greater than 8 characters</p>
+                    <p className="mt-4 italic text-black font-light text-sm">Password strength: <span style={{ color: valid ? 'red' : 'green' }}>{valid ? 'Weak' : 'Strong'}</span></p>
 
-                    <div className="mt-4 flex items-center text-white"> <input type="checkbox" id="remember" name="remember" className="mr-2" />
+                    <div className="mt-4 flex items-center text-black"> <input type="checkbox" id="remember" name="remember" className="mr-2" />
                         <label className="text-sm" />I agree with the<span>&nbsp;</span><a className="text-blue hover:text-indigo-600" href="#">Privacy Policy</a>
                     </div>
 
