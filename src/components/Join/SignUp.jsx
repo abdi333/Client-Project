@@ -3,7 +3,7 @@ import showPwdImg from './Pictures/show-password.png';
 import hidePwdImg from './Pictures/hide-password.png';
 
 
-export default function JoinLeague() {
+export default function SignUp() {
     const [first, setFirst] = useState("");
     const firstEl = useRef();
 

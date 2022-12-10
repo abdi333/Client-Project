@@ -1,7 +1,6 @@
 export default function Footer() {
     return (
-        <div>
-
+        <div className="">
             <footer className="bg-blue pt-4" >
                 <div className="mx-auto px-4">
                     <div className="flex flex-wrap text-left lg:text-left">

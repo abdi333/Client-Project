@@ -1,7 +1,7 @@
 export default function Nav() {
   return (
-    <div>
-      <div className=" mx-auto py-6 ">
+    <div className="">
+      <div className=" mx-auto py-6">
         <nav className="border-gray-200 px-2 mb-10 pb-5 shadow-xl">
           <div className="container mx-auto flex flex-wrap items-center justify-between">
             <a href="#" className="flex">
@@ -11,7 +11,7 @@ export default function Nav() {
             <div className="flex md:order-2">
               <div className="relative mr-3 md:mr-0 hidden md:block">
                 <button className="bg-gray-50   text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2">Donate Now</button>
-              </div>              
+              </div>
             </div>
 
             <div className="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
@@ -31,15 +31,11 @@ export default function Nav() {
                 <li>
                   <a href="#" className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">About Us</a>
                 </li>
-              </ul>             
+              </ul>
             </div>
           </div>
         </nav>
-
-
       </div>
-
-      <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
     </div>
   );
 }
