@@ -36,7 +36,7 @@ export default function CreateLeague() {
                         </p>
                         <p className="text-center">Base Package</p>
                         <ul className="border-t border-gray-300 py-8 space-y-6">
-                        <li className="flex items-center space-x-2 px-8">
+                            <li className="flex items-center space-x-2 px-8">
                                 <span className="bg-blue rounded-full p-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 text-white" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
@@ -101,7 +101,7 @@ export default function CreateLeague() {
                                 <span className="text-gray-600 capitalize">Links Social Media Platforms</span>
                             </li>
                         </ul>
-                        
+
                     </div>
                     <div className="bg-white shadow-2xl rounded-lg py-4">
                         <p className="text-xl text-center font-bold text-blue">Premium</p>
@@ -177,7 +177,7 @@ export default function CreateLeague() {
                                 <span className="text-gray-600 capitalize">Telephone and Email Support</span>
                             </li>
                         </ul>
-                        
+
                     </div>
                     <div className="bg-white shadow-2xl rounded-lg py-4">
                         <p className="text-xl text-center font-bold text-blue">Pro</p>
@@ -253,7 +253,7 @@ export default function CreateLeague() {
                                 <span className="text-gray-600 capitalize">Free Setup Guidance</span>
                             </li>
                         </ul>
-                        
+
                     </div>
                 </div>
             </div>
@@ -273,41 +273,43 @@ export default function CreateLeague() {
                         </div> */}
                     </div>
                     <div className="relative mt-3">
-                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="Organization" ref={orgEl}/>
+                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="Organization" ref={orgEl} />
                         <div className="absolute left-0 inset-y-0 flex items-center">
-                            <img src="https://cdn-icons-png.flaticon.com/512/585/585840.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor"/>
+                            <img src="https://cdn-icons-png.flaticon.com/512/585/585840.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor" />
                         </div>
                     </div>
                     <div className="relative mt-3">
-                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="First Name" ref={firstEl}/>
+                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="First Name" ref={firstEl} />
                         <div className="absolute left-0 inset-y-0 flex items-center">
-                            <img src="https://cdn-icons-png.flaticon.com/128/1077/1077114.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor"/>
+                            <img src="https://cdn-icons-png.flaticon.com/128/1077/1077114.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor" />
                         </div>
                     </div>
                     <div className="relative mt-3">
-                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="Last Name" ref={lastEl}/>
+                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="Last Name" ref={lastEl} />
                         <div className="absolute left-0 inset-y-0 flex items-center">
-                            <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor"/>
+                            <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor" />
                         </div>
                     </div>
                     <div className="relative mt-3">
-                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="Phone Number" ref={phoneEl}/>
+                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="Phone Number" ref={phoneEl} />
                         <div className="absolute left-0 inset-y-0 flex items-center">
-                            <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor"/>
+                            <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor" />
                         </div>
                     </div>
                     <div className="relative mt-3">
-                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="Email" ref={emailEl}/>
+                        <input className="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" type="text" placeholder="Email" ref={emailEl} />
                         <div className="absolute left-0 inset-y-0 flex items-center">
-                            <img src="https://cdn-icons-png.flaticon.com/512/7887/7887710.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor"/>
+                            <img src="https://cdn-icons-png.flaticon.com/512/7887/7887710.png" className="h-7 w-7 ml-3 text-gray-400 p-1" viewBox="0 0 20 20" fill="currentColor" />
                         </div>
                     </div>
-                    <div className="mt-4 flex items-center text-black"> <input type="checkbox" id="remember" name="remember" className="mr-2"/>
-                        <label className="text-sm"/>I agree with the<span>&nbsp;</span><a className="text-blue hover:text-indigo-600" href="#">Privacy Policy</a>
+                    <div className="mt-4 flex items-center text-black"> <input type="checkbox" id="remember" name="remember" className="mr-2" />
+                        <label className="text-sm" />I agree with the<span>&nbsp;</span><a className="text-blue hover:text-indigo-600" href="#">Privacy Policy</a>
                     </div>
                     <div className="flex items-center justify-center mt-8">
-                        <button onClick={function () {setOption(optionEl.current.value); setOrg(orgEl.current.value); setFirst(firstEl.current.value); setLast(lastEl.current.value); setPhone(phoneEl.current.value); setEmail(emailEl.current.value); 
-                        optionEl.current.value = "Select Option"; orgEl.current.value = ""; firstEl.current.value = ""; lastEl.current.value = ""; phoneEl.current.value = ""; emailEl.current.value = "";}}
+                        <button onClick={function () {
+                            setOption(optionEl.current.value); setOrg(orgEl.current.value); setFirst(firstEl.current.value); setLast(lastEl.current.value); setPhone(phoneEl.current.value); setEmail(emailEl.current.value);
+                            optionEl.current.value = "Select Option"; orgEl.current.value = ""; firstEl.current.value = ""; lastEl.current.value = ""; phoneEl.current.value = ""; emailEl.current.value = "";
+                        }}
                             className="text-white py-2 px-4 uppercase rounded bg-blue hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">Register</button></div>
                 </form>
             </div>
