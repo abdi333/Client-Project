@@ -86,10 +86,10 @@ export default function JoinLeague() {
                                 onClick={() => setIsRevealPwd(prevState => !prevState)} />
                         </div>
                     </div>
-                    <p className="mt-4 italic text-black font-light text-sm">Password should be greater than 8 characters</p>
-                    <p className="mt-4 italic text-black font-light text-sm">Password strength: <span style={{ color: valid ? 'red' : 'green' }}>{valid ? 'Weak' : 'Strong'}</span></p>
+                    <p className="mt-4 italic text-white font-light text-sm">Password should be greater than 8 characters</p>
+                    <p className="mt-4 italic text-white font-light text-sm">Password strength: <span style={{ color: valid ? 'red' : 'green' }}>{valid ? 'Weak' : 'Strong'}</span></p>
 
-                    <div className="mt-4 flex items-center text-black"> <input type="checkbox" id="remember" name="remember" className="mr-2" />
+                    <div className="mt-4 flex items-center text-white"> <input type="checkbox" id="remember" name="remember" className="mr-2" />
                         <label className="text-sm" />I agree with the<span>&nbsp;</span><a className="text-blue hover:text-indigo-600" href="#">Privacy Policy</a>
                     </div>
 
