@@ -101,8 +101,8 @@ export default function CreateLeague() {
                                 <span className="text-gray-600 capitalize">Links Social Media Platforms</span>
                             </li>
                         </ul>
-
                     </div>
+
                     <div className="bg-white shadow-2xl rounded-lg py-4">
                         <p className="text-xl text-center font-bold text-blue">Premium</p>
                         <p className="text-center py-8">
@@ -177,8 +177,8 @@ export default function CreateLeague() {
                                 <span className="text-gray-600 capitalize">Telephone and Email Support</span>
                             </li>
                         </ul>
-
                     </div>
+                    
                     <div className="bg-white shadow-2xl rounded-lg py-4">
                         <p className="text-xl text-center font-bold text-blue">Pro</p>
                         <p className="text-center py-8">
@@ -310,19 +310,19 @@ export default function CreateLeague() {
                             setOption(optionEl.current.value); setOrg(orgEl.current.value); setFirst(firstEl.current.value); setLast(lastEl.current.value); setPhone(phoneEl.current.value); setEmail(emailEl.current.value);
                             optionEl.current.value = "Select Option"; orgEl.current.value = ""; firstEl.current.value = ""; lastEl.current.value = ""; phoneEl.current.value = ""; emailEl.current.value = "";
                         }}
-                            className="text-white py-2 px-4 uppercase rounded bg-blue hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">Register</button></div>
+                            className="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">Register</button></div>
                 </form>
             </div>
-            <div>
-                {/* <h4 className="text-black mx-auto pt-10">
+            {/* <div>
+                <h4 className="text-black mx-auto pt-10">
                     Option: {option} <br /><br />
                     Organization: {org} <br /><br />
                     First Name: {first} <br /><br />
                     Last Name: {last} <br /><br />
                     Phone Number: {phone} <br /><br />
                     Email Adress: {email}
-                </h4> */}
-            </div>
+                </h4>
+            </div> */}
 
         </div>
 

@@ -94,7 +94,7 @@ export default function SignUp() {
                     </div>
 
                     <div className="flex items-center justify-center mt-8">
-                        <button className=" text-black py-2 px-4 uppercase rounded bg-blue hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
+                        <button className=" text-black py-2 px-4 uppercase rounded bg-blue-400 hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
                             onClick={function () {
                                 setFirst(firstEl.current.value); setLast(lastEl.current.value); setEmail(emailEl.current.value); setPhone(phoneEl.current.value); setKey(keyEl.current.value);
                                 firstEl.current.value = ""; lastEl.current.value = ""; emailEl.current.value = ""; phoneEl.current.value = ""; keyEl.current.value = "";
@@ -102,15 +102,15 @@ export default function SignUp() {
                     </div>
                 </form>
             </div>
-            <div>
-                {/* <h4 className="text-black">
+            {/* <div>
+                <h4 className="text-black">
                     First Name : {first} <br /><br />
                     Last Name : {last} <br /><br />
                     Phone Number : {phone} <br /><br />
                     Email Adress : {email} <br /><br />
                     Password : {key}
-                </h4> */}
-            </div>
+                </h4>
+            </div> */}
         </div>
 
     )
