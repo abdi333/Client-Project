@@ -5,15 +5,15 @@ export default function Nav() {
   return (
     <div className="">
       <div className=" mx-auto py-6">
-        <nav className="border-gray-200 px-2 mb-10 pb-5 shadow-xl">
+        <nav className="border-gray-200 px-2 mb-6 pb-5 shadow-xl">
           <div className="container mx-auto flex flex-wrap items-center justify-between">
             <a href="#" className="flex">
-              <img className="mr-5" width="75" height="75"  src={Logo} />
-              <span className="self-center text-lg text-white font-semibold whitespace-nowrap">Good Sport Golf Club</span>
+              
+              <span className="self-center text-lg text-black font-semibold whitespace-nowrap">Good Sport Golf Club</span>
             </a>
             <div className="flex md:order-2">
               <div className="relative mr-3 md:mr-0 hidden md:block">
-                <button className="bg-blue-400 text-white sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2">Donate Now</button>
+                <button className="bg-lightgreen text-white sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2">Donate Now</button>
               </div>
             </div>
 

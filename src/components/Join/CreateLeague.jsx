@@ -310,7 +310,7 @@ export default function CreateLeague() {
                             setOption(optionEl.current.value); setOrg(orgEl.current.value); setFirst(firstEl.current.value); setLast(lastEl.current.value); setPhone(phoneEl.current.value); setEmail(emailEl.current.value);
                             optionEl.current.value = "Select Option"; orgEl.current.value = ""; firstEl.current.value = ""; lastEl.current.value = ""; phoneEl.current.value = ""; emailEl.current.value = "";
                         }}
-                            className="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">Register</button></div>
+                            className="text-white py-2 px-4 uppercase rounded bg-lightgreen hover:bg-lightgreen shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">Register</button></div>
                 </form>
             </div>
             {/* <div>

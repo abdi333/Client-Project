@@ -21,7 +21,7 @@ export default function Login() {
         }
     }, [key]);
     return (
-        <div className="p-8 lg:w-1/2 mx-auto content-container">
+        <div className="p-8 lg:w-1/2 mx-auto">
             <div className="bg-white rounded-t-lg p-8">
                 <p className="text-center text-md">Sign in with</p>
                 <div>
@@ -64,7 +64,7 @@ export default function Login() {
                         <label for="remember">Remember me</label>
                     </div>
                     <div className="flex items-center justify-center mt-8">
-                        <button className="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
+                        <button className="text-white py-2 px-4 uppercase rounded bg-lightgreen hover:bg-indigo-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5"
                         onClick={function () {
                                 setEmail(emailEl.current.value); setKey(keyEl.current.value);
                                 emailEl.current.value = ""; keyEl.current.value = "";
