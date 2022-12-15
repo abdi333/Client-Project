@@ -1,3 +1,8 @@
+import facebook from '../Join/Pictures/facebook.png'
+import twitter from '../Join/Pictures/twitter.png'
+import instagram from '../Join/Pictures/instagram.png'
+import linkedin from '../Join/Pictures/linkedin.png'
+
 export default function Footer() {
     return (
         <div className="">
@@ -11,13 +16,13 @@ export default function Footer() {
                             </h5>
                             <div className="mt-6 lg:mb-0 mb-6">                                
                                 <a href="https://facebook.com" target="_blank"><button className="bg-white text-lightBlue-600 shadow-lg font-normal h-6 w-6 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" /></button></a>
+                                    <img src={facebook} /></button></a>
                                 <a href="https://twitter.com" target="_blank"><button className="bg-white text-lightBlue-400 shadow-lg font-normal h-6 w-6 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" /></button></a>
+                                    <img src={twitter} /></button></a>
                                 <a href="https://instagram.com" target="_blank"><button className="bg-white text-pink-400 shadow-lg font-normal h-6 w-6 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" /></button></a>
+                                    <img src={instagram} /></button></a>
                                 <a href="https://linkedin.com" target="_blank"><button className="bg-white text-blueGray-800 shadow-lg font-normal h-6 w-6 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" /></button></a>
+                                    <img src={linkedin} /></button></a>
                             </div>
                         </div>
 
