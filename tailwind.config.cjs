@@ -15,7 +15,8 @@ module.exports = {
       white: "#ffffff",
       lightgreen: "#4FA730",
       black: "#000000",
-      lightgrey: "#d6d6d6",
+      grey: "#b5b3b3",
+      lightgrey: "#f2f2f2",
       hintgreen: '#bef9ac'
     },
     fontFamily: {

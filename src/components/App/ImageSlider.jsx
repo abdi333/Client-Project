@@ -47,6 +47,8 @@ const ImageSlider = ({ slides }) => {
     display: "flex",
     justifyContent: "center",
     cursor: "pointer",
+    color: "gray",
+    marginTop: -20
   };
   const dotStyle = {
     margin: "0 3px",
@@ -55,7 +57,7 @@ const ImageSlider = ({ slides }) => {
     setCurrentIndex(slideIndex);
   };
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} className="mx-24 py-12">
       <div>
         <span className="inline-block" style={leftArrowStyle} onClick={prevImg}>
           <svg

@@ -17,11 +17,14 @@ export default function About() {
             <div className="md:5/12 lg:w-5/12">
                 <img src="https://images.unsplash.com/photo-1443706340763-4b60757a36ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80" alt="image" loading="lazy" width="" height="" />
             </div>
-            <div className="px-14 md:7/12 lg:w-6/12">
+            <div className="pl-24 md:7/12 lg:w-6/12">
                 <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">About Us</h2>
-                <p className="mt-6 text-gray-600">Good Sport Golf Club was originated nine years ago in the Columbus area. It first started as a hobby and soon was formed into a club in April of 2013. The mission of the Good Sport Golf Club is to promote the playing of golf, friendly competition, sportsmanship and social activities among its members; and to instill in our golfers a sense of respect for both their fellow players, and for the rules of the game and inclusion among its members and non-members.</p>
-                <p className="mt-4 text-gray-600"> While promoting fellowship and camaraderie among our membership we strive to make our league enjoyable, accessible and affordable for our members, thereby achieving a high level of member enjoyment resulting in lifelong friendships, strong member retention and the ongoing attraction of new members who will uphold our values and traditions.</p>
-                <p className="mt-4 text-gray-600"> The vision of Good Sport Golf Club is to provide amateur golfers the means to interact and compete with other golfers of the same and different genders, ages, and skill levels, in a fun, competitive, and organized manner. Most importantly, Good Sport Golf Club aspires to do good works in communities by creating value in the lives of others. </p>
+                <h5 className="mt-6 font-bold text-lg">The Start</h5>
+                <p>Good Sport Golf Club was originated nine years ago in the Columbus area. It first started as a hobby and soon was formed into a club in April of 2013. The mission of the Good Sport Golf Club is to promote the playing of golf, friendly competition, sportsmanship and social activities among its members; and to instill in our golfers a sense of respect for both their fellow players, and for the rules of the game and inclusion among its members and non-members.</p>
+                <h5 className="mt-4 font-bold text-lg">Our Mission</h5>
+                <p>While promoting fellowship and camaraderie among our membership we strive to make our league enjoyable, accessible and affordable for our members, thereby achieving a high level of member enjoyment resulting in lifelong friendships, strong member retention and the ongoing attraction of new members who will uphold our values and traditions.</p>
+                <h5 className="mt-4 font-bold text-lg">Our Goal</h5>
+                <p>The vision of Good Sport Golf Club is to provide amateur golfers the means to interact and compete with other golfers of the same and different genders, ages, and skill levels, in a fun, competitive, and organized manner. Most importantly, Good Sport Golf Club aspires to do good works in communities by creating value in the lives of others. </p>
             </div>
             </div>
 
